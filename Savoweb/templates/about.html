@@ -1,0 +1,86 @@
+{% load static %}
+<!DOCTYPE HTML>
+<!--
+	Alpha by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>About Savo</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="{% static 'css/main.css' %}" />
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header">
+					<h1><a href="{% url 'index' %}">Savo</a> India</h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="{% url 'index' %}">Home</a></li>
+							<li>
+								<a href="#" class="icon solid fa-angle-down">More</a>
+								<ul>
+									<li><a href="generic.html"></a></li>
+									<li><a href="{% url 'contact' %}">Contact</a></li>
+								</ul>
+							</li>
+							<li><a href="#" class="button">Sign Up</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Main -->
+				<section id="main" class="container">
+					<header>
+						<h2>Savo</h2>
+						<p>A Study Search Engine.</p>
+					</header>
+					<div class="box">
+						<span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
+						<h3>Our Goal</h3>
+						<p>Savo aims to provide a one-stop solution to one of the most prominent problems among college/school students, i.e. Which online certification course would be best suited for them? Often it is confusing for students to figure out which course to take up when there are about tens of them teaching the same topic. Savo would provide them with a single platform that helps them to compare different courses on the same topic based on specific filters. No more would it be a hassle for students to get the right kind of guidance in choosing a course once they get their hands on savo.</p>
+						<div class="row">
+							<div class="row-6 row-12-mobilep">
+								<h3>Why Savo?</h3>
+								<p>Today the web provides thousands of resources for the same course. Being students ourselves we identify the need for a consolidated platform that can fetch and provide the best options available for pursuing one’s desired courses. This brings the need for our proposal to come into existence. Our recommendation system will help you browse through every course that has been made till today and help you find the one that meets your needs and requirements. SAVO stands out from other platforms as it suggests courses after a detailed analysis of a person's academic background and expertise in their specific fields.</p>
+							</div>
+							<div class="row-6 row-12-mobilep">
+								<h3>How it will help you?</h3>
+								<p>Currently there is a large availability of online study resources offered by various universities/individuals both paid and free hence making it difficult for the learners to figure out the best-suited course for them. This often leads to wastage of time and energy in finding the right course and oftentimes results in one doing an obsolete or an inappropriate course or paying too much for a course that was available at a comparatively cheaper cost on other platforms.SAVO helps you compare various courses on different platforms and helps you find the right one based on your requirement.</p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+        <!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://twitter.com/kanhiya_0w0" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.instagram.com/ig_kanhiyatripathi/?hl=en" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://github.com/paritoshtripathi935" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+						<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; All rights reserved.</li><li>Design: <a href="http://www.paritoshtripathi.social">Savo</a></li>
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="{% static 'js/jquery.min.js' %}"></script>
+			<script src="{% static 'js/jquery.dropotron.min.js' %}"></script>
+			<script src="{% static 'js/jquery.scrollex.min.js' %}"></script>
+			<script src="{% static 'js/browser.min.js' %}"></script>
+			<script src="{% static 'js/breakpoints.min.js' %}"></script>
+			<script src="{% static 'js/util.js' %}"></script>
+			<script src="{% static 'js/main.js' %}"></script>
+
+	</body>
+</html>
