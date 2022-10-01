@@ -27,3 +27,7 @@ BeautifulSoup4
 bs4
 requests
 pandas
+requests
+bs4
+urllib3
+lxml
